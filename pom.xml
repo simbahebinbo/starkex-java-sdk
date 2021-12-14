@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.algotrader</groupId>
-    <artifactId>starkex</artifactId>
-    <version>1.0</version>
+    <artifactId>starkex-java-sdk</artifactId>
+    <version>1.0.0</version>
 
-    <name>starkCurve</name>
+    <name>starkex-java-sdk</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,7 +21,7 @@
             <dependency>
                 <groupId>org.junit</groupId>
                 <artifactId>junit-bom</artifactId>
-                <version>5.8.1</version>
+                <version>5.8.2</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -101,5 +101,15 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 </project>

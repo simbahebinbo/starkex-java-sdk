@@ -52,7 +52,7 @@ class TestStarkSigner {
                 new Order("123456",
                         "1.00",
                         "0.0015",
-                        new DydxAsset("ZED", 8),
+                        new DydxAsset("ZEC", 8),
                         StarkwareOrderSide.SELL,
                         "2021-11-03T16:22:23Z"),
                 "WyHPW57ZKGwcie18UbEBGcry2QervYgYSG1Fm6YG",
