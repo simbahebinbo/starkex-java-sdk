@@ -1,8 +1,8 @@
 package com.algotrader.starkex.hashing;
 
 import com.algotrader.starkex.signature.StarkCurve;
-
 import org.bouncycastle.math.ec.ECPoint;
+
 import java.math.BigInteger;
 import java.util.List;
 

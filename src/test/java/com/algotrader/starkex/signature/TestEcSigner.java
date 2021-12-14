@@ -1,15 +1,14 @@
 package com.algotrader.starkex.signature;
 
+import com.algotrader.starkex.exception.SignException;
+import org.junit.jupiter.api.Test;
+
+import java.math.BigInteger;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-
-import com.algotrader.starkex.exception.SignException;
-
-import org.junit.jupiter.api.Test;
-
-import java.math.BigInteger;
 
 class TestEcSigner {
     private static final String EXPECTED_SIGNATURE = "06bca455438f4e337e11dff3897d85fdd425be2eb51bd0db92f34527965934e7003376e6726048f2bb23a6f89e7a7528c8cd832493431dd6c685148517ec752f";

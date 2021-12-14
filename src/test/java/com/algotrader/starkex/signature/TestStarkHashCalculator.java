@@ -26,7 +26,7 @@ import static org.hamcrest.Matchers.is;
 class TestStarkHashCalculator {
     private final static String HASH_VALUE = "1690222932b6b9f7ec1a92f3950e5332892789e7531336114f588ed08de3a42";
     private final static StarkwareOrderConverter STARKWARE_ORDER_CONVERTER = new StarkwareOrderConverter();
-    private final static StarkHashCalculator STARK_HASH_CALCULATOR=new StarkHashCalculator(new PedersonHash(ConstantPoints.POINTS.get(0)));
+    private final static StarkHashCalculator STARK_HASH_CALCULATOR = new StarkHashCalculator(new PedersonHash(ConstantPoints.POINTS.get(0)));
     private final static OrderWithClientIdWithPrice order = new OrderWithClientIdWithPrice(
             new Order("56277",
                     "1",
@@ -63,7 +63,7 @@ class TestStarkHashCalculator {
 
     @Test
     void testNonce() throws NoSuchAlgorithmException {
-        assertThat(STARKWARE_ORDER_CONVERTER.nonceFromClientId("123456"),is(equalTo(new BigInteger("987524242"))));
+        assertThat(STARKWARE_ORDER_CONVERTER.nonceFromClientId("123456"), is(equalTo(new BigInteger("987524242"))));
     }
 
 

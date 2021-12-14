@@ -6,7 +6,6 @@ import com.algotrader.starkex.exception.HashingException;
 import java.math.BigInteger;
 
 /**
-
  * Base class for hash calculators
  *
  * @param <T>

@@ -2,10 +2,10 @@ package com.algotrader.starkex.hashing;
 
 import com.algotrader.starkex.exception.PedersonHashException;
 import com.algotrader.starkex.exception.PedersonHashInputException;
-
 import org.bouncycastle.math.ec.ECPoint;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 import java.math.BigInteger;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
